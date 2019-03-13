@@ -258,3 +258,9 @@ if __name__ == '__main__':
 ![](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/13.png)
 
 BOOM!
+
+[**代码文件传送门**](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets)
+
+---
+
+如果这篇文章有帮到你，请大力点赞，谢谢~~ 欢迎关注我的知乎账号[loco_z](https://www.zhihu.com/people/loco_z)和我的知乎专栏[《手把手教你写爬虫》](https://zhuanlan.zhihu.com/webspider)，我会时不时地发一些爬虫相关的干货和黑科技，说不定能让你有所启发。
