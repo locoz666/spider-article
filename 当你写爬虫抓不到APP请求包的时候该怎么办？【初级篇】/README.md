@@ -16,7 +16,7 @@
 
 看起来这位同学是遇到了一个APP的请求不走代理，以至于出现抓包时看不到关键的请求的问题，我们先来把这个APP装上，抓个包看看具体情况吧。
 
-![没有抓到新闻列表的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/1.png)
+![没有抓到新闻列表的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/1.png)
 
 抓到的包里确实没有看到新闻列表的请求，除了图中的这些部分以外全都是图片以及CONNECT请求。
 
@@ -24,8 +24,8 @@
 
 插播一个小提示：Fiddler在这个地方可以移除图片、CONNECT类型的请求等干扰项哦。
 
-![移除CONNECT类型的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/2.png)
-![移除返回内容为图片类型的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/3.png)
+![移除CONNECT类型的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/2.png)
+![移除返回内容为图片类型的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/3.png)
 
 ---
 
@@ -43,11 +43,11 @@ Proxy Droid的原理是通过iptables将所有TCP连接重定向到代理服务�
 
 使用方法很简单，**设置好系统代理后**打开Proxy Droid并设置好代理服务器的IP和端口，然后点击开启按钮。
 
-![开启Proxy Droid](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/4.png)
+![开启Proxy Droid](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/4.png)
 
 此时再抓包就能抓到这个APP的列表页请求了。
 
-![成功抓到新闻列表的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/5.jpg)
+![成功抓到新闻列表的请求](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/5.jpg)
 
 2. 使用VPN抓包
 
@@ -59,32 +59,32 @@ Packet Capture的原理是在本地创建一个VPN，使所有请求都从VPN中
 
 界面展示：
 
-![Packet Capture未开启状态](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/6.png)
-![Packet Capture开启后](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/7.png)
+![Packet Capture未开启状态](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/6.png)
+![Packet Capture开启后](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/7.png)
 
 ---
 
 再插播一个小提示：使用Packet Capture抓包时可以只看某个APP的请求，设置方式如下：
 
-![Packet Capture指定查看某个APP](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/8.jpg)
+![Packet Capture指定查看某个APP](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/8.jpg)
 
 点击图中画框的图标，会出现一个搜索界面，输入你要抓包的APP名并点击一下就会开始抓包了，会过滤掉其他无关APP的请求，只保留你想要的这一个APP的。
 
-![Packet Capture指定查看淘最热点](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/9.png)
+![Packet Capture指定查看淘最热点](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/9.png)
 
 ---
 
 那么我们来试试它的效果吧，打开抓包后，在淘最热点的新闻列表里随便翻几下页。
 
-![淘最热点APP内新闻列表](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/10.png)
+![淘最热点APP内新闻列表](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/10.png)
 
 然后切回Packet Capture。
 
-![使用Packet Capture对淘最热点进行抓包](C:\Users\50687\Nextcloud\文章\spider-article\当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】\assets\11.png)
+![使用Packet Capture对淘最热点进行抓包](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/11.png)
 
 可以看到已经抓到很多请求包了，找一个大小比平均值小的点进去看看（因为这里有图片，一般缩略图的大小和来源都比较相似，排除掉这些就是需要的那个API的请求了）。
 
-![成功抓到新闻列表的请求1](https://raw.githubusercontent.com/locoz666/spider-article/master/当你写爬虫抓不到APP请求包的时候该怎么办？【初级篇】/assets/12.jpg)
+![成功抓到新闻列表的请求1](https://raw.githubusercontent.com/locoz666/spider-article/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%8A%93%E4%B8%8D%E5%88%B0APP%E8%AF%B7%E6%B1%82%E5%8C%85%E7%9A%84%E6%97%B6%E5%80%99%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91/assets/12.jpg)
 
 轻松地抓到了它的列表页请求。
 
