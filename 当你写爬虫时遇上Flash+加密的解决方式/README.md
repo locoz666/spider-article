@@ -12,7 +12,7 @@
 
 打开这个网站看看，这是一个用Flash播放器加载并播放视频的页面，传入播放器的参数如帖中所述是有加密的
 
-![使用Chrome的开发者工具查看播放器元素](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/1.png)
+![使用Chrome的开发者工具查看播放器元素](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/1.png)
 
 传入播放器的参数：
 
@@ -22,11 +22,11 @@ flvurl=lxxt6jIID2Byq541xEB6F3u71bYaE5A/A-1dMFS4o9mx8uzpm81KxH25u1E29:Cl7Wg|lxxt4
 
 抓包发现有一个.flv文件的链接，应该就是播放器加载出来的视频
 
-![使用Chrome的开发者工具查看网络请求](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/2.png)
+![使用Chrome的开发者工具查看网络请求](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/2.png)
 
 全局搜索这个URL的部分内容是搜不到的，判断出这个URL应该是在播放器中对传入的flvurl参数进行解密，然后再加载出视频
 
-![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/3.png)
+![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/3.png)
 
 ---
 
@@ -40,11 +40,11 @@ flvurl=lxxt6jIID2Byq541xEB6F3u71bYaE5A/A-1dMFS4o9mx8uzpm81KxH25u1E29:Cl7Wg|lxxt4
 
 下载完后启动它，界面长这样：
 
-![JPEXS启动界面](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/4.png)
+![JPEXS启动界面](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/4.png)
 
 默认的语言是英语，可以切换成中文，在Settings – Change language里选择
 
-![JPEXS切换成中文](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/5.png)
+![JPEXS切换成中文](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/5.png)
 
 然后我们将这个播放器的.swf文件给下载下来，并使用JPEXS打开
 
@@ -54,7 +54,7 @@ flvurl=lxxt6jIID2Byq541xEB6F3u71bYaE5A/A-1dMFS4o9mx8uzpm81KxH25u1E29:Cl7Wg|lxxt4
 http://www.tvsky.tv/FlvPlay/Playerx.swf
 ```
 
-![用JPEXS打开播放器文件](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/6.png)
+![用JPEXS打开播放器文件](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/6.png)
 
 然后我们有两种方式快速定位到可能存在解密代码的位置
 
@@ -62,15 +62,15 @@ http://www.tvsky.tv/FlvPlay/Playerx.swf
 
 打开后找到脚本组下frame1的DoAction脚本
 
-![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/7.png)
+![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/7.png)
 
 点击后窗口右侧会反编译这个脚本的内容，并展示出反编译出来的AS源代码和P代码（类似于汇编语言），我们只需要看AS源代码的部分就行了
 
-![播放器加载状态](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/8.png)
+![播放器加载状态](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/8.png)
 
 根据在网页中播放器的样子，在加载时会有一个“正在加载Flv文件”的字样，直接按Ctrl+F搜索它
 
-![搜索反编译出来的代码中的字符串](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/9.png)
+![搜索反编译出来的代码中的字符串](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/9.png)
 
 找到init函数
 
@@ -80,15 +80,15 @@ http://www.tvsky.tv/FlvPlay/Playerx.swf
 
 随便找一个脚本打开，然后按Ctrl+Shift+F打开全局搜索，同样搜索“正在加载Flv文件”
 
-![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/10.png)
+![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/10.png)
 
-![全局搜索](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/11.png)
+![全局搜索](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/11.png)
 
 ---
 
 快速定位出加载视频部分后，根据init函数这里的代码可以看出，_loc2_就是被传进播放器的flvurl
 
-![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/12.png)
+![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/12.png)
 
 那么下面的这部分就是它的解密操作了
 
@@ -255,6 +255,6 @@ if __name__ == '__main__':
 
 执行一下看看效果
 
-![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFLASH%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/13.png)
+![](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E6%97%B6%E9%81%87%E4%B8%8AFlash%2B%E5%8A%A0%E5%AF%86%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/assets/13.png)
 
 BOOM!
