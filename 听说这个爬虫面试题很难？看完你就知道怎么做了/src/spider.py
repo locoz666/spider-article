@@ -4,6 +4,7 @@ import os
 import re
 
 import execjs
+import lxml.html
 from aiohttp_requests import requests
 from lxml import etree
 
@@ -23,7 +24,10 @@ async def req():
     resp1 = await requests.get(MAIN_PAGE_URL)
     resp1_text = await resp1.text()
     # print(resp1_text)
-    doc = etree.HTML(resp1_text)
+
+    # 两种将html字符串转换成element的方式，使用lxml.html会多一些小工具
+    doc = lxml.html.fromstring(resp1_text)
+    # doc = etree.HTML(resp1_text)
 
     # 调用JS生成CSS
     # os.path.dirname(__file__)是取当前py文件的相对路径
@@ -42,7 +46,9 @@ async def req():
         bad.getparent().remove(bad)
 
     # 用xpath直接取出body下的所有text，在清除前后空格和换行符之后合并到同一个字符串
-    exam_text = "".join([text.strip() for text in doc.xpath('//body//text()')])
+    # 如使用lxml.html转换的element，可以使用doc.text_content直接提取出里面所有text，注意text_content方法在etree转换的element类中不存在
+    exam_text = doc.text_content().replace("\n", "").replace(" ", "")
+    # exam_text = "".join([text.strip() for text in doc.xpath('//body//text()')])  # 另一种取的方式
     print(exam_text)
 
 
