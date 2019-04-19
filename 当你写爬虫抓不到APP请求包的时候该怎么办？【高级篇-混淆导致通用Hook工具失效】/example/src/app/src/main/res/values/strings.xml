@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OKHttp3 SSL Pinning样例</string>
+    <string name="button">点击发送请求</string>
+</resources>
