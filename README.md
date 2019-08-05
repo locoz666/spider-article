@@ -12,6 +12,7 @@
 - [当你写爬虫遇到APP的请求有加密参数时该怎么办？【初级篇-常规模式】](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E9%81%87%E5%88%B0APP%E7%9A%84%E8%AF%B7%E6%B1%82%E6%9C%89%E5%8A%A0%E5%AF%86%E5%8F%82%E6%95%B0%E6%97%B6%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87-%E5%B8%B8%E8%A7%84%E6%A8%A1%E5%BC%8F%E3%80%91)
 - [当你写爬虫遇到APP的请求有加密参数时该怎么办？【初级篇-秒杀模式】](https://github.com/locoz666/spider-article/tree/master/%E5%BD%93%E4%BD%A0%E5%86%99%E7%88%AC%E8%99%AB%E9%81%87%E5%88%B0APP%E7%9A%84%E8%AF%B7%E6%B1%82%E6%9C%89%E5%8A%A0%E5%AF%86%E5%8F%82%E6%95%B0%E6%97%B6%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E3%80%90%E5%88%9D%E7%BA%A7%E7%AF%87-%E7%A7%92%E6%9D%80%E6%A8%A1%E5%BC%8F%E3%80%91)
 - [APP逆向神器之Frida【Android初级篇】](https://github.com/locoz666/spider-article/tree/master/APP%E9%80%86%E5%90%91%E7%A5%9E%E5%99%A8%E4%B9%8BFrida%E3%80%90Android%E5%88%9D%E7%BA%A7%E7%AF%87%E3%80%91)
+- [如何让你写的爬虫速度像坐火箭一样快【并发请求】](https://github.com/locoz666/spider-article/tree/master/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%BD%A0%E5%86%99%E7%9A%84%E7%88%AC%E8%99%AB%E9%80%9F%E5%BA%A6%E5%83%8F%E5%9D%90%E7%81%AB%E7%AE%AD%E4%B8%80%E6%A0%B7%E5%BF%AB%E3%80%90%E5%B9%B6%E5%8F%91%E8%AF%B7%E6%B1%82%E3%80%91)
 
 ## TODO
 
